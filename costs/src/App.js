@@ -6,7 +6,7 @@ import Contact from './components/pages/Contact';
 import Container from './components/pages/layout/Container';
 
 function RouteWithContainer({ children }) {
-  return <Container>{children}</Container>;
+  return <Container customClass="min-height">{children}</Container>;
 }
 
 function App() {
