@@ -57,7 +57,7 @@ export default function ProjectForm({ btnText, handleSubmit, projectData }) {
       <Input
         type="number"
         text='Orçamento do Projeto'
-        name=""
+        name="budget"
         placeholder="Insira o orçamento total"
         handleOnChange={handleChange}
       />
