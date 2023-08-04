@@ -9,6 +9,7 @@ export default function Input({ type, text, name, placeholder, handleOnChange, v
         name={name}
         id={name}
         placeholder={placeholder}
+        onChange={handleOnChange}
         value={value} />
 
     </div>
