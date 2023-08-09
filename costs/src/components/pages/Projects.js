@@ -34,7 +34,7 @@ export default function Projects() {
     <div className={styles.project_container}>
       <div className={styles.title_container}>
         <h1>Meus Projetos</h1>
-        <LinkButton to="/newproject" text="Criar Projeto" />
+        <LinkButton to="/new_project" text="Criar Projeto" />
       </div>
 
       {message && <Message msg={message} type='success' duration={3000} />}
@@ -42,7 +42,7 @@ export default function Projects() {
         {projects.length > 0 &&
           projects.map((project) => (
 
-            < ProjectCard id={project.id} name={project.name} budget={project.budget} category={project.category} />
+            < ProjectCard id={project.id} name={project.name} budget={project.budget} category={project.category.name} />
           ))}
       </Container>
 
