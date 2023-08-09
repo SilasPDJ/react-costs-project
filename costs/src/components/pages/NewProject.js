@@ -6,8 +6,7 @@ export default function NewProject() {
   const navigate = useNavigate()
 
   function createPost(project) {
-    // Initialize budget and services
-    project.budget = 0
+    // project.budget = 0
     project.services = []
 
     fetch('http://localhost:5000/projects', {

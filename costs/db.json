@@ -1,46 +1,46 @@
 {
-    "projects": [
-        {
-            "name": "Projeto Teste",
-            "category": {
-                "id": "2",
-                "name": "Desenvolvimento"
-            },
-            "budget": 5000,
-            "services": [],
-            "id": 1
-        },
-        {
-            "name": "Projeto Jhonson",
-            "category": {
-                "id": "1",
-                "name": "Infra"
-            },
-            "budget": 10000,
-            "services": [],
-            "id": 2
-        }
-    ],
-    "categories": [
-        {
-            "id": 1,
-            "name": "Infra"
-        },
-        {
-            "id": 2,
-            "name": "Desenvolvimento"
-        },
-        {
-            "id": 3,
-            "name": "Design"
-        },
-        {
-            "id": 4,
-            "name": "Planejamento"
-        },
-        {
-            "id": 5,
-            "name": "Consultoria"
-        }
-    ]
+  "projects": [
+    {
+      "name": "Projeto Teste",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "budget": 5000,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "Teste",
+      "budget": "5000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "services": [],
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    },
+    {
+      "id": 5,
+      "name": "Consultoria"
+    }
+  ]
 }
